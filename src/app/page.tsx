@@ -1,7 +1,11 @@
-
-
-export default function Home() {
+import Hero from "@/components/hero";
+import homeImg from "public/home.jpg";
+export default function HomePage() {
   return (
-   <div>Home Page</div>
+    <Hero
+      imgData={homeImg}
+      imgAlt="car factory"
+      title="Professional Clound Hosting"
+    />
   );
 }
